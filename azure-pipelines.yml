@@ -8,7 +8,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'PaasAgent'
 
 container: mcr.microsoft.com/dotnet/core/sdk:3.0
 
